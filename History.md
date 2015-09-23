@@ -1,4 +1,29 @@
 
+2.0.12 / 2015-09-22
+===================
+
+  * Release 2.0.11
+  * update localytics
+  * Merge pull request #436 from graingert/ISO8601
+  * Use invariant locale for ISO8601 date formatter
+
+2.0.11 / 2015-09-22
+===================
+
+  * update localytics
+
+2.0.10 / 2015-09-16
+===================
+
+  * Merge pull request #432 from segmentio/uxcam
+  * uxcam: update header
+  * bump uxcam
+
+2.0.9 / 2015-09-15
+==================
+
+  * Fix podfile for 0.38.0+
+
 2.0.8 / 2015-09-11
 ==================
 

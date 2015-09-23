@@ -77,7 +77,7 @@
       "name": "Localytics",
       "dependencies": [{
         "name": "Localytics",
-        "version": "3.3.0"
+        "version": "3.5.0"
       }]
     },
     {
@@ -130,7 +130,7 @@
       "name": "UXCam",
       "dependencies": [{
         "name": "UXCam",
-        "version": "2.0.5"
+        "version": "2.3.2"
       }]
     }
   ]

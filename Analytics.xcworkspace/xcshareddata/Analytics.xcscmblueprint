@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2FBF6FF867B676467411255C927B9FD8739B9AC2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2FBF6FF867B676467411255C927B9FD8739B9AC2" : 0,
+    "F0F9E80CE3A6541B751320DE94341C5E2BC35EA7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "357C8EFE-66A2-4386-BD45-DFCFDA086A40",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2FBF6FF867B676467411255C927B9FD8739B9AC2" : "analytics-ios",
+    "F0F9E80CE3A6541B751320DE94341C5E2BC35EA7" : "analytics-iosAnalytics\/Integrations\/Expa"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Analytics",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Analytics.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:operatordev\/analytics-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2FBF6FF867B676467411255C927B9FD8739B9AC2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:expa\/ExpaProvider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0F9E80CE3A6541B751320DE94341C5E2BC35EA7"
+    }
+  ]
+}

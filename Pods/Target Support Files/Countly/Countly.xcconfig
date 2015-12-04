@@ -1,1 +1,0 @@
-COUNTLY_OTHER_LDFLAGS = -weak_framework "CoreData" -weak_framework "CoreTelephony"

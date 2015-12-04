@@ -1,27 +1,19 @@
-XCPRETTY := xcpretty -c && exit ${PIPESTATUS[0]}
+deps:
+	@pod install
 
-SDK ?= "iphonesimulator"
-DESTINATION ?= "platform=iOS Simulator,name=iPhone 5"
-PROJECT := Analytics
-XC_ARGS := -scheme $(PROJECT)-Example -workspace Example/$(PROJECT).xcworkspace -sdk $(SDK) -destination $(DESTINATION) ONLY_ACTIVE_ARCH=NO
+build: deps
+	@./scripts/cli/bin/cli build
 
-install: Example/Podfile Analytics.podspec
-	pod install --project-directory=Example
+build-pretty: deps
+	@./scripts/cli/bin/cli build | xcpretty -c
 
-clean:
-	xcodebuild $(XC_ARGS) clean | $(XCPRETTY)
+test: deps
+	@./scripts/cli/bin/cli build test
 
-build:
-	xcodebuild $(XC_ARGS) | $(XCPRETTY)
+test-pretty: deps
+	@./scripts/cli/bin/cli build test | xcpretty -c
 
-test:
-	xcodebuild test $(XC_ARGS) | $(XCPRETTY)
+release: deps
+	@./scripts/cli/bin/cli release $(version)
 
-xcbuild:
-	xctool $(XC_ARGS)
-
-xctest:
-	xctool test $(XC_ARGS)
-
-.PHONY: test xctest build xcbuild clean
-.SILENT:
+.PHONY: deps build test release

@@ -46,7 +46,7 @@
       "name": "Expa",
       "dependencies": [{
         "name": "Mixpanel",
-        "version": "2.9.7"
+        "version": "2.9.1"
       }]
     },
     {
@@ -84,7 +84,7 @@
       "name": "Mixpanel",
       "dependencies": [{
         "name": "Mixpanel",
-        "version": "2.9.7"
+        "version": "2.9.1"
       }]
     },
     {
